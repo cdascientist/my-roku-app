@@ -6,9 +6,9 @@ namespace HelloWorldApp
             print "===================="
         end sub
 
-        
+
         public sub main()
-            print "===================="
+            print "Modification 2===================="
             print "Executing main()"
             m.new()
             print "Main execution complete"
