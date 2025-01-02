@@ -1,0 +1,16 @@
+{
+    "rootDir": "src",
+    "files": [
+        "**/*.bs"
+    ],
+    "diagnosticLevel": "information",
+    "retainStagingFolder": true,
+    "createPackage": false,
+    "sourceMap": true,
+    "emitDefinitions": true,
+    "plugins": ["@rokucommunity/bslint"],
+    "stagingFolderPath": "out/.roku-deploy-staging",
+    "logLevel": "diagnostic",
+    "debug": true,
+    "showDiagnostics": true
+}

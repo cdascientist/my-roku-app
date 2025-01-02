@@ -1,0 +1,12 @@
+{
+    "rules": {
+        "inline-if-style": "error",
+        "block-if-style": "error",
+        "condition-style": "error",
+        "named-function-style": "error",
+        "anon-function-style": "error",
+        "aa-comma-style": "error",
+        "no-print": "warn",
+        "no-stop": "warn"
+    }
+}

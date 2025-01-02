@@ -1,0 +1,25 @@
+{
+    "name":  "my-roku-app",
+    "version":  "1.0.0",
+    "main":  "index.js",
+    "scripts":  {
+                    "build":  "bsc",
+                    "debug":  "bsc --createPackage=false --debug --sourceMap=true --logLevel=diagnostic",
+                    "verbose":  "bsc --createPackage=false --debug --sourceMap=true --logLevel=verbose",
+                    "lint":  "bslint",
+                    "watch":  "bsc --watch",
+                    "test":  "bsc --createPackage=false \u0026\u0026 node --async-stack-traces test-runner.js",
+                    "validate":  "bsc --create-package=false"
+                },
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "ISC",
+    "description":  "",
+    "devDependencies":  {
+                            "@rokucommunity/brs":  "^0.47.1",
+                            "@rokucommunity/bslint":  "^0.8.27",
+                            "brighterscript":  "^0.68.2"
+                        }
+}

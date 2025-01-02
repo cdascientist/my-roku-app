@@ -1,0 +1,34 @@
+namespace HelloWorldApp
+    class HelloWorld
+        public sub new()
+            print "===================="
+            print "Initializing HelloWorld"
+            print "===================="
+        end sub
+
+        public sub main()
+            print "===================="
+            print "Executing main()"
+            m.new()
+            print "Main execution complete"
+            print "===================="
+        end sub
+    end class
+end namespace
+
+sub Main()
+    runTests()
+end sub
+
+sub runTests()
+    print "=================="
+    print "Starting tests..."
+    print "=================="
+
+    hello = new HelloWorldApp.HelloWorld()
+    hello.main()
+
+    print "=================="
+    print "Tests completed"
+    print "=================="
+end sub
